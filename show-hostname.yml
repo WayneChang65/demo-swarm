@@ -1,7 +1,7 @@
 version: "3"
 services:
   show-hostname:
-    build: .
+    #build: .
     image: waynechang65/show-hostname:1.0.0
     ports:
       - 2222:2222
