@@ -1,17 +1,6 @@
 version: "3"
 services:
   show-hostname:
-    #build: .
-    image: waynechang65/show-hostname:1.0.0
+    image: waynechang65/show-hostname:latest
     ports:
       - 2222:2222
-
-  web:
-    image: nginx:1.21.1-alpine
-    ports:
-      - 3333:80
-    deploy:
-      placement:
-        constraints: [node.labels.ngx == YES]
-
-  

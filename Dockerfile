@@ -1,4 +1,4 @@
-From node:14.17.1-alpine3.13
+From node:14-buster-slim
 
 WORKDIR /home/node
 
